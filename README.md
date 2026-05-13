@@ -19,7 +19,7 @@ Proyecto desarrollado con **Spring Boot 3.5.x** y **PostgreSQL**, pensado para p
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/users-api.git
+   git clone https://github.com/toledo96/usersApi.git
    cd users-api
    
 ## 🔐 Variables de entorno requeridas
