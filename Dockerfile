@@ -7,6 +7,9 @@ WORKDIR /app
 # Copiar todo el proyecto al contenedor
 COPY . .
 
+# Dar permisos de ejecución al wrapper de Maven
+RUN chmod +x mvnw
+
 # Compilar el proyecto con Maven (sin ejecutar tests)
 RUN ./mvnw clean package -DskipTests
 
