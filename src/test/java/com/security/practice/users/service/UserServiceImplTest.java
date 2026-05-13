@@ -41,7 +41,7 @@ class UserServiceImplTest {
     @Mock
     private UserRoleRepository userRoleRepository;
 
-    @Mock
+    @InjectMocks
     private CustomUserDetailsService customUserDetailsService;
 
     @Mock
