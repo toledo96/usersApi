@@ -10,7 +10,5 @@ COPY . .
 # Compilar el proyecto con Maven (sin ejecutar tests)
 RUN ./mvnw clean package -DskipTests
 
-RUN ./mvnw clean package -DskipTests
-
 # Ejecutar el JAR generado users-0.0.1-SNAPSHOT
 CMD ["java", "-jar", "target/users-0.0.1-SNAPSHOT.jar"]
