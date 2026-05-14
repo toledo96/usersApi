@@ -6,7 +6,8 @@ import org.springframework.test.context.ActiveProfiles;
 
 
 @SpringBootTest(properties = {
-		"spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration"
+		"spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration," +
+				"org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration"
 })
 @ActiveProfiles("test")
 class UsersApplicationTests {
