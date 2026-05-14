@@ -28,7 +28,7 @@ jobs:
         run: ./mvnw test --batch-mode -Dspring.profiles.active=test
 
       - name: Build Docker image
-        run: docker build -t usersapi:latest
+        run: docker build -t usersapi:latest .
 
       - name: Verify tests passed
         if: failure()
