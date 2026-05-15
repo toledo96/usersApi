@@ -122,6 +122,3 @@ API desplegada en Render (gratis).
 Base de datos estable en Supabase (gratis).
 
 Monitoreo con UptimeRobot (gratis).
-
-Stack completo y profesional para portafolio.
-
